@@ -1,0 +1,120 @@
+/****** BASE STYLES ******/
+@font-face {
+	font-family: wisdom-script;
+	src: url('../font/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: montserrat, sans-serif;
+	color: #000000;
+	background: #ffffff;
+}
+
+
+/****** HEADER ******/
+header {
+	height: 110px;
+	width: 1224px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 36px 0 36px ;
+	text-transform: uppercase;
+}
+header span {
+	color: #83ab74;
+}
+
+nav {
+	color: #83ab74;
+	float: right;
+	font-size: : 14px;
+	font-weight: bold;
+	padding: 36px;
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+
+
+/****** GRID ******/
+
+.full-width {
+	width: 1240px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 620px;
+	float:left;
+}
+.third-width {
+	width: 400px;
+	height: 250px;
+	float:left;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dedbdc;
+}
+
+/****** ABOUT NEED TO FIX IMAGE BORDER ******/
+
+#about h2 {
+	color: #77a466;
+	font-size: 18px:;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 26px 0 26px 0;
+
+}
+#about img#hero-image{
+	border-color: #77a466;
+	border-style: solid, 15px;
+}
+#about p{
+	width: 1170px;
+	margin-bottom: 100px;
+}
+
+/****** COLUMNS ******/
+
+
+#menu h3, #reviews h3, #contact h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#menu p {
+	color: #77a466;
+	line-height: 200%;
+}
+
+#reviews p {
+	width: 320px;
+}
+
+
+/******* FOOTER ******/
+
+footer h2 {
+	clear: both;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: 80px 410px 40px 410px;
+}
+
+.fancy {
+	font-family: 'Wisdom Script', cursive;
+	font-size: 24px;
+	color: #77a466;
+}
